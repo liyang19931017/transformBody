@@ -1,0 +1,20 @@
+{
+  "name": "transformBody",
+  "version": "1.0.0",
+  "description": "控制页面缩放",
+  "main": "./src/main.ts",
+  "scripts": {
+    "build:esm": "rollup --config rollup.config.js"
+  },
+  "repository": "https://github.com/liyang19931017/transformBody.git",
+  "author": "大阳",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "lodash": "^4.17.21",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "typescript": "^4.7.4"
+  }
+}
